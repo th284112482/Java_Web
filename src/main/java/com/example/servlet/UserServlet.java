@@ -89,6 +89,7 @@ public class UserServlet extends HttpServlet {
             resp.sendRedirect(req.getContextPath() + "/user?action=list");
         } else {
             resp.sendRedirect(req.getContextPath() + "/user?action=list");
+//            resp.sendRedirect(req.getContextPath() + "/user?action=list");
         }
     }
 }
